@@ -1,0 +1,213 @@
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+width: 100%;
+background: url('ocean.jpg');
+background-position: center;
+background-size: cover;
+height: 100vh;
+position: relative;
+font-family: sans-serif;
+}
+.navbar{
+width:84%;
+display: flex;
+margin: auto;
+padding: 20px 0;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+width: 180px;
+cursor: pointer;
+margin-top: -2%;
+margin-left: -1%;
+color: rgb(230,104,59);
+
+}
+ul li{
+list-style: none;
+display: inline-block;
+margin: 10px 20px;
+}
+ul li a{
+font-size: 16px;
+font-weight: bold;
+text-decoration: none;
+color:azure;
+margin-top: -3%;
+transition: .4s ease;
+}
+ul li a:hover{
+color:rgb(230,104,59); 
+}
+.info{
+color:azure; 
+position: absolute;
+top: 47%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+text-align: center;
+
+}
+.info h2{
+font-size: 90px;
+color:azure;
+}
+.info p{
+font-size: 30px;
+letter-spacing: 1px;
+line-height: 45px;
+}
+   
+.info span{
+    color:#f08080; 
+}
+
+
+.newsletter form input:first-child{
+    border: 4px solid #f9004d;
+}
+
+.about-me{
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about-me img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main2{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+.myskill{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+    margin: 0 auto;
+    display: flex;
+justify-content: space-around;
+}
+.myskill1 h3{
+color: white;
+font-size: 50px;
+text-transform: capitalize;
+margin-bottom: 20px;
+
+}
+.myskill1 p{
+    color: #f08080;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 25px;
+}
+.content{
+    align-items: center;
+    float:left;
+}
+.image{
+    padding: 5px;
+    float: left;
+}
+.contact-me {
+        background:#191919;
+        position: relative;
+        height: 92vh;
+        text-align: center;
+}
+.contact-me h5 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #25b79f;
+    padding-bottom: 0.5rem;
+  }
+
+.contact-me .mail {
+    color: #f0f0e6;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+  }
+  .contact-me .links {
+    color: #25b79f;
+    padding: 0.5rem;
+    padding-bottom: 1.8rem;
+    font-size: 1rem;
+  }
+  
+.contact-me a {
+    text-decoration: none;
+    color: #25b79f;
+    padding: 0.5rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .contact-me a:hover{
+    color: #f0f0e6;
+  }
+  /* ////......Media query......//// */
+  @media (max-width: 500px) {
+    html {
+      font-size: 60%;
+    }
+}
+    .about-me {
+      flex-basis: 100%;
+      text-align: center;
+    }
+    .myskill1 {
+        width: 100%;
+    }
+    .contact-me {
+        width: 100%;
+      }
+    
+    @media (min-width: 501px) and (max-width: 768px) {
+      html {
+        font-size: 65%;
+      }
+    }
+    
+      .about-me {
+        flex-basis: 100%;
+        text-align: center;
+      }
+      .skills {
+        width: 100%;
+      }
+      .contact-me {
+        width: 100%;
+      }
+      .end{
+        position: relative;
+        color: #f9004d;
+        bottom: 35px;
+        font-size: 14px;
+        text-align: center;
+      }
+    
